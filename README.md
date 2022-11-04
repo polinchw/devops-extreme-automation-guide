@@ -47,3 +47,4 @@ a Kubernetes cluster and do post install actions against that cluster, like boot
 
 ## Diagram(s)
 
+![Sequence!](diagrams/sequenceDiagram.png)
