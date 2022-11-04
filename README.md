@@ -7,7 +7,7 @@ It shows how to combine some great open source tools in a seperation of concerns
 
 This is a list of the most commonly used components involved in building and deploying apps along with links to external
 repos as examples.  If you piece these compoents together you can let automation do most of the heavy lifting when it comes 
-to devops automation.
+to devops.
 
 ## Component Parts
 
