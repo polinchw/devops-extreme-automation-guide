@@ -27,7 +27,7 @@ After the example hello-github-webhook app is containerized we'll want to tell K
 
 ### GitOps
 
-GitOps is a strategy of deploying apps to Kubernetes by using Git as the source of truth as to what is deployed.  I'll be using [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) as my GitOps solution to deploy the hello-github-webhook app to my Kubernetes cluster.  I'll also be using ArgoCD's ApplicationSet to deploy a bunch of cluster add-on apps like Grafana, Cert-Manager, and Prometheus to my cluster.  
+[GitOps](https://codefresh.io/learn/gitops/) is a strategy of deploying apps to Kubernetes by using Git as the source of truth as to what is deployed.  I'll be using [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) as my GitOps solution to deploy the hello-github-webhook app to my Kubernetes cluster.  I'll also be using ArgoCD's ApplicationSet to deploy a bunch of cluster add-on apps like Grafana, Cert-Manager, and Prometheus to my cluster.  
 
 Once ArgoCD installed on the cluster it will be in charge of deploying the apps and keeping them in sync
 with what is in the [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) repository.
@@ -36,7 +36,7 @@ with what is in the [hello-github-webhook-cd](https://github.com/polinchw/hello-
 
 ArgoCD can be installed manually if you like, there are lots of examples on how to do that.  If you want to up your 
 ArgoCD game and have it automatically install itself along with the apps you want ArgoCD to manage you can do that with 
-ArgoCD AutoPilot.  This [auto-pilot](https://github.com/polinchw/auto-pilot) repo will install the hello-github-webhook-cd 
+[ArgoCD AutoPilot](https://argocd-autopilot.readthedocs.io/en/stable/).  This [auto-pilot](https://github.com/polinchw/auto-pilot) repo will install the hello-github-webhook-cd 
 manifests along with the Helm charts defined in this [cluster-addons](https://github.com/polinchw/cluster-addons) repo.
 
 ### Infrastructure as Code
