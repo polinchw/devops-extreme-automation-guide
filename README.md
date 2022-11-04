@@ -12,10 +12,10 @@ to devops automation.
 ## Component Parts
 
 + [Containerize](https://github.com/polinchw/devops-extreme-automation-guide#containerize)
-+ Kubernetes Manifests
-+ GitOps
-    + AutoPilot
-+ Infrastructure as Code
++ [Kubernetes Manifests](https://github.com/polinchw/devops-extreme-automation-guide#kubernetes-manifests)
++ [GitOps](https://github.com/polinchw/devops-extreme-automation-guide#gitops)
+    + [AutoPilot](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
++ [Infrastructure as Code](https://github.com/polinchw/devops-extreme-automation-guide#infrastructure-as-code)
 
 ### Containerize
 
