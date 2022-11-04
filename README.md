@@ -39,6 +39,11 @@ ArgoCD game and have it automatically install itself along with the apps you wan
 [ArgoCD AutoPilot](https://argocd-autopilot.readthedocs.io/en/stable/).  This [auto-pilot](https://github.com/polinchw/auto-pilot) repo will install the hello-github-webhook-cd 
 manifests along with the Helm charts defined in this [cluster-addons](https://github.com/polinchw/cluster-addons) repo.
 
+##### ArgoCD Image Updater
+
+The [auto-pilot](https://github.com/polinchw/auto-pilot) repo has been [configured](https://github.com/polinchw/auto-pilot/blob/main/projects/hello.yaml#L70) for this example to use the ArgoCD Image Updater to watch for new releases from hello-github-webhook. The ArgoCD Image Updater will update the [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) repo when new docker images are posted to Docker Hub.
+
+
 ### Infrastructure as Code
 
 There are about 100 different ways to create a Kubernetes cluster.  I've used Kubespray, RKE, individual cloud providers' 
