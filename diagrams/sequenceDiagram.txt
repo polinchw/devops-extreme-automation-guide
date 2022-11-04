@@ -4,8 +4,9 @@ Sequence Diagram
 end title
 Containerize -> Docker_Hub: GitHub Action Builds Image
 Kubernetes_Manifests -> Docker_Hub : The Kubernetes_Manifests will point to the Docker Image
-GitOps -> Kubernetes_Manifests : ArgoCD will deploy the Kubernetes Manifests
-AutoPilot -> GitOps : ArgoCD will deploy all of the ArgoCD Applications
-Infrastructure_As_Code -> AutoPilot :  Terraform will bootstrap AutoPilot
 Infrastructure_As_Code -> Kubernetes : Terrform will build the cluster
+Infrastructure_As_Code -> AutoPilot :  Terraform will bootstrap AutoPilot
+AutoPilot -> Cluster_Addons
+AutoPilot -> GitOps : AutoPilot will deploy all of the ArgoCD Applications
+GitOps -> Kubernetes_Manifests : ArgoCD will deploy the Kubernetes Manifests
 @enduml
