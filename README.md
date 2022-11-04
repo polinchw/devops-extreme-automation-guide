@@ -15,6 +15,7 @@ to devops.
 + [Kubernetes Manifests](https://github.com/polinchw/devops-extreme-automation-guide#kubernetes-manifests)
 + [GitOps](https://github.com/polinchw/devops-extreme-automation-guide#gitops)
     + [AutoPilot](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
+    + [ArgoCD Image Updater](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
 + [Infrastructure as Code](https://github.com/polinchw/devops-extreme-automation-guide#infrastructure-as-code)
 
 ### Containerize
