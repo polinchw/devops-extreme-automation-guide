@@ -2,11 +2,20 @@
 title
 Sequence Diagram
 end title
+actor Developer
+Developer -> Containerize : Push release
 Containerize -> Docker_Hub: GitHub Action Builds Image
 Kubernetes_Manifests -> Docker_Hub : The Kubernetes_Manifests will point to the Docker Image
+actor DevOps 
+DevOps -> Infrastructure_As_Code
 Infrastructure_As_Code -> Kubernetes : Terrform will build the cluster
 Infrastructure_As_Code -> AutoPilot :  Terraform will bootstrap AutoPilot
-AutoPilot -> Cluster_Addons
-AutoPilot -> GitOps : AutoPilot will deploy all of the ArgoCD Applications
-GitOps -> Kubernetes_Manifests : ArgoCD will deploy the Kubernetes Manifests
+AutoPilot -> Cluster_Addons : Install and manage Grafana etc.
+AutoPilot -> Cluster_Addons : AutoPilot will watch for any changes to Cluster_Addons
+AutoPilot -> Kubernetes_Manifests : ArgoCD will deploy the Kubernetes Manifests
+Developer -> Containerize : Push new release
+Containerize -> Docker_Hub: GitHub Action Builds Image
+Docker_Hub <-- Kubernetes : ArgoCD Image Updater will watch for new releases
+Kubernetes_Manifests <-- Kubernetes : ArgoCD Image Updater will update the manifests when a image is released
+Kubernetes_Manifests <-- AutoPilot : ArgoCD will update the deployment
 @enduml
