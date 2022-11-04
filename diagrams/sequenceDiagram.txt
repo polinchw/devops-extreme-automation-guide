@@ -7,7 +7,7 @@ Developer -> Containerize : Push release
 Containerize -> Docker_Hub: GitHub Action Builds Image
 Kubernetes_Manifests -> Docker_Hub : The Kubernetes_Manifests will point to the Docker Image
 actor DevOps 
-DevOps -> Infrastructure_As_Code
+DevOps -> Infrastructure_As_Code : DevOps runs Terraform apply
 Infrastructure_As_Code -> Kubernetes : Terrform will build the cluster
 Infrastructure_As_Code -> AutoPilot :  Terraform will bootstrap AutoPilot
 AutoPilot -> Cluster_Addons : Install and manage Grafana etc.
