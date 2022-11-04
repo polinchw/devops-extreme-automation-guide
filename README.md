@@ -11,7 +11,7 @@ to devops automation.
 
 ## Component Parts
 
-+ Containerize
++ [Containerize](https://github.com/polinchw/devops-extreme-automation-guide#containerize)
 + Kubernetes Manifests
 + GitOps
     + AutoPilot
