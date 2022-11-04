@@ -2,7 +2,7 @@
 
 ## Description
 
-This repo serves as a guide to fully (well, as close to fully as possible) automate building deploying your microservices.
+This repo serves as a guide to fully (well, as close to fully as possible) automate building and deploying your microservices.
 It shows how to combine some great open source tools in a seperation of concerns manner.
 
 This is a list of the most commonly used components involved in building and deploying apps along with links to external
@@ -23,7 +23,7 @@ Starting with your app you'll want to package it in a way that makes it easy to 
 
 ### Kubernetes Manifests
 
-After the example hello-github-webhook app is containerized we'll went to tell Kubernetes how to deploy it.  We want to place the Kubernetes manifests into a seperate git repository as a best practice to set ourselves up for the next building block of our automation (GitOps).  This [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) repo will tell Kubernetes how to deploy the [hello-github-webhook](https://github.com/polinchw/hello-github-webhook) app.  
+After the example hello-github-webhook app is containerized we'll want to tell Kubernetes how to deploy it.  We want to place the Kubernetes manifests into a seperate git repository as a best practice to set ourselves up for the next building block of our automation (GitOps).  This [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) repo will tell Kubernetes how to deploy the [hello-github-webhook](https://github.com/polinchw/hello-github-webhook) app.  
 
 ### GitOps
 
