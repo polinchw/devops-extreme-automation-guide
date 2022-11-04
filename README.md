@@ -45,3 +45,5 @@ There are about 100 different ways to create a Kubernetes cluster.  I've used Ku
 uis to name a few.  For this example I've choosen [Terraform](https://www.terraform.io/).  The main reason I choose Terraform is you can tell it to create 
 a Kubernetes cluster and do post install actions against that cluster, like boot strap ArgoCD AutoPilot.  I saw combining Terraform with AutoPilot as the holy grail to automating everything with on Terraform command.  This [terraform](https://github.com/polinchw/terraform) shows you how to create a Kubernetes cluster on Azure AKS.  It builds the cluster, installs ArgoCD Autopilot which will deploy the [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) manifests as an ArgoCD mananged app.
 
+## Diagram(s)
+
