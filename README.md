@@ -17,6 +17,7 @@ to devops.
     + [AutoPilot](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
     + [ArgoCD Image Updater](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
 + [Infrastructure as Code](https://github.com/polinchw/devops-extreme-automation-guide#infrastructure-as-code)
++ [Diagrams](https://github.com/polinchw/devops-extreme-automation-guide#diagrams)
 
 ### Containerize
 
