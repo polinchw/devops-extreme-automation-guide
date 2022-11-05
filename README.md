@@ -9,7 +9,7 @@ This is a list of the most commonly used components involved in building and dep
 repos as examples.  If you piece these compoents together you can let automation do most of the heavy lifting when it comes 
 to devops.
 
-## Component Parts
+## Table of Contents
 
 + [Containerize](https://github.com/polinchw/devops-extreme-automation-guide#containerize)
 + [Kubernetes Manifests](https://github.com/polinchw/devops-extreme-automation-guide#kubernetes-manifests)
