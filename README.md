@@ -43,7 +43,7 @@ manifests along with the Helm charts defined in this [cluster-addons](https://gi
 
 ##### ArgoCD Image Updater
 
-The [auto-pilot](https://github.com/polinchw/auto-pilot) repo has been [configured](https://github.com/polinchw/auto-pilot/blob/main/projects/hello.yaml#L70) for this example to use the ArgoCD Image Updater to watch for new releases from hello-github-webhook. The ArgoCD Image Updater will update the [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) repo when new docker images are posted to Docker Hub.
+The [auto-pilot](https://github.com/polinchw/auto-pilot) repo has been [configured](https://github.com/polinchw/auto-pilot/blob/main/projects/hello.yaml#L70) for this example to use the [ArgoCD Image Updater](https://argocd-image-updater.readthedocs.io/en/stable/) to watch for new releases from hello-github-webhook. The ArgoCD Image Updater will update the [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) repo when new docker images are posted to Docker Hub.
 
 
 ### Infrastructure as Code
