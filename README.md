@@ -11,12 +11,12 @@ to devops.
 
 ## Table of Contents
 
-+ [Containerize](https://github.com/polinchw/devops-extreme-automation-guide#containerize)
-+ [Kubernetes Manifests](https://github.com/polinchw/devops-extreme-automation-guide#kubernetes-manifests)
++ [Containerize](https://github.com/polinchw/devops-extreme-automation-guide#containerize) - ([hello-github-webhook](https://github.com/polinchw/hello-github-webhook))
++ [Kubernetes Manifests](https://github.com/polinchw/devops-extreme-automation-guide#kubernetes-manifests) - ([hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd))
 + [GitOps](https://github.com/polinchw/devops-extreme-automation-guide#gitops)
-    + [AutoPilot](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
+    + [AutoPilot](https://github.com/polinchw/devops-extreme-automation-guide#autopilot) - ([autopilot](https://argocd-autopilot.readthedocs.io/en/stable/))
     + [ArgoCD Image Updater](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
-+ [Infrastructure as Code](https://github.com/polinchw/devops-extreme-automation-guide#infrastructure-as-code)
++ [Infrastructure as Code](https://github.com/polinchw/devops-extreme-automation-guide#infrastructure-as-code) - ([terraform](https://github.com/polinchw/terraform))
 + [Diagrams](https://github.com/polinchw/devops-extreme-automation-guide#diagrams)
 
 ### Containerize
