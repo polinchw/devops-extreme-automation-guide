@@ -31,7 +31,7 @@ After the example hello-github-webhook app is containerized we'll want to tell K
 
 [GitOps](https://codefresh.io/learn/gitops/) is a strategy of deploying apps to Kubernetes by using Git as the source of truth as to what is deployed.  I'll be using [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) as my GitOps solution to deploy the hello-github-webhook app to my Kubernetes cluster.  I'll also be using ArgoCD's ApplicationSet to deploy a bunch of cluster add-on apps like Grafana, Cert-Manager, and Prometheus to my cluster.  
 
-Once ArgoCD installed on the cluster it will be in charge of deploying the apps and keeping them in sync
+Once ArgoCD is installed on the cluster it will be in charge of deploying the apps and keeping them in sync
 with what is in the [hello-github-webhook-cd](https://github.com/polinchw/hello-github-webhook-cd) repository.
 
 #### AutoPilot
