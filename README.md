@@ -18,7 +18,7 @@ to devops.
     + [ArgoCD Image Updater](https://github.com/polinchw/devops-extreme-automation-guide#autopilot)
 + [Infrastructure as Code](https://github.com/polinchw/devops-extreme-automation-guide#infrastructure-as-code) - ([terraform](https://github.com/polinchw/terraform))
 + [Diagrams](https://github.com/polinchw/devops-extreme-automation-guide#diagrams)
-+ [YouTube Video] (https://www.youtube.com/watch?v=K48CHU9MUJI)
++ [YouTube Video](https://www.youtube.com/watch?v=K48CHU9MUJI)
 
 ### Containerize
 
